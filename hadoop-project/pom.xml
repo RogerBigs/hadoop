@@ -71,7 +71,7 @@
 
     <!-- jackson versions -->
     <jackson.version>1.9.13</jackson.version>
-    <jackson2.version>2.10.3</jackson2.version>
+    <jackson2.version>2.10.4</jackson2.version>
     <jackson2.databind.version>2.10.3</jackson2.databind.version>
 
     <!-- httpcomponents versions -->
@@ -211,7 +211,7 @@
     <powermock.version>1.5.6</powermock.version>
     <solr.version>7.7.0</solr.version>
     <openssl-wildfly.version>1.0.7.Final</openssl-wildfly.version>
-    <jsonschema2pojo.version>1.0.2</jsonschema2pojo.version>
+    <jsonschema2pojo.version>1.1.1</jsonschema2pojo.version>
   </properties>
 
   <dependencyManagement>
@@ -2344,7 +2344,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
