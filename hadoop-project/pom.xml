@@ -98,7 +98,7 @@
     <hadoop-thirdparty-shaded-protobuf-prefix>${hadoop-thirdparty-shaded-prefix}.protobuf</hadoop-thirdparty-shaded-protobuf-prefix>
     <hadoop-thirdparty-shaded-guava-prefix>${hadoop-thirdparty-shaded-prefix}.com.google.common</hadoop-thirdparty-shaded-guava-prefix>
 
-    <zookeeper.version>3.5.6</zookeeper.version>
+    <zookeeper.version>3.8.2</zookeeper.version>
     <curator.version>4.2.0</curator.version>
     <findbugs.version>3.0.5</findbugs.version>
     <spotbugs.version>4.1.3</spotbugs.version>
@@ -2344,7 +2344,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/&gt;
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
