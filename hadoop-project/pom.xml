@@ -64,7 +64,7 @@
     <java.security.egd>file:///dev/urandom</java.security.egd>
 
     <!-- avro version -->
-    <avro.version>1.7.7</avro.version>
+    <avro.version>1.9.0</avro.version>
 
     <!-- jersey version -->
     <jersey.version>1.19</jersey.version>
@@ -144,7 +144,7 @@
     <metrics.version>3.2.4</metrics.version>
     <netty3.version>3.10.6.Final</netty3.version>
     <netty4.version>4.1.50.Final</netty4.version>
-    <snappy-java.version>1.1.7.7</snappy-java.version>
+    <snappy-java.version>1.1.10.4</snappy-java.version>
 
     <!-- Maven protoc compiler -->
     <protobuf-maven-plugin.version>0.5.1</protobuf-maven-plugin.version>
@@ -2344,7 +2344,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/&gt;
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
